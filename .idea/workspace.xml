@@ -4,52 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f9945c8-5b2b-4e99-b366-b3c0ed1db836" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/FantacalcioApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/config/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/config/MailConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/config/MongoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/controller/AstaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/controller/GiocatoreController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/exception/EmailNotVerifiedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/exception/PasswordNotMatchingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/exception/UsernameNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/model/Asta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/model/AstaRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/model/ChangePasswordRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/model/EmailRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/model/Giocatore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/model/GiocatoreByNomeAndRoleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/model/GiocatoreByNomeRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/model/JwtResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/model/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/model/TelephoneRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/model/TokenData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/model/UsernameRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/repository/AstaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/repository/GiocatoreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/service/AstaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/service/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/service/GiocatoreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/util/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/validation/PhoneNumberValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/validation/ValidPhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="1f9945c8-5b2b-4e99-b366-b3c0ed1db836" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/FantacalcioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/website/backend/WebsiteApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/controller/AstaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/controller/GiocatoreController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/model/Asta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/model/AstaRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/model/ChangePasswordRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/model/EmailRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/model/Giocatore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/model/GiocatoreByNomeAndRoleRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/model/GiocatoreByNomeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/model/JwtResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/model/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/model/TelephoneRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/model/TokenData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/model/UsernameRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/repository/AstaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/repository/GiocatoreRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/service/AstaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/website/backend/service/GiocatoreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,22 +59,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FantacalcioApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.backend [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.fantacalcio [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.fantacalcio [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FantacalcioApplication.executor": "Run",
+    "Application.WebsiteApplication.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.backend [clean,install].executor": "Run",
+    "Maven.fantacalcio [clean,install].executor": "Run",
+    "Maven.fantacalcio [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/arturo/Desktop/website/backend"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/backend" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="FantacalcioApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.fantacalcio.backend.FantacalcioApplication" />
+    <configuration name="WebsiteApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="it.website.backend.WebsiteApplication" />
       <module name="fantacalcio" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FantacalcioApplication" />
+        <item itemvalue="Application.WebsiteApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -121,6 +109,19 @@
       <option name="presentableId" value="Default" />
       <updated>1723376643807</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1724058967612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724058967612</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
